@@ -60,7 +60,8 @@ export function Gallery() {
             >
               <img
                 src={src}
-                alt={`Project ${index + 1}`}
+                alt=""
+                aria-label="View photo"
                 className="w-full h-auto object-cover group-hover:scale-105 transition-transform duration-700"
                 referrerPolicy="no-referrer"
                 loading="lazy"
